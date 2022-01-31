@@ -1,0 +1,110 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Nunito+Sans:wght@300&family=Poppins&display=swap"
+    rel="stylesheet">
+<script src="https://kit.fontawesome.com/97d26515f5.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<div class="container ">
+    <div class="row mt-4 mb-4">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 float-start">
+            <img style="align-items: flex-start;" src="images\Flannagan-logo.png" alt="">
+        </div>
+        <div class="col-md-3 ">
+            <table>
+                <tr>
+                    <th colspan="1" class="table-active fa-2x "> <span class="fas fa-phone-alt icon_marg fa-1x"></span>
+                    </th>
+                    <td>
+                        <h5>Teesside Office</h5>
+                        <h5><b>0142 989 0111</b></h5>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-3 ">
+            <table>
+                <tr>
+                    <th colspan="1" class="table-active fa-2x "> <span class="fas fa-phone-alt icon_marg fa-1x"></span>
+                    </th>
+                    <td>
+                        <h5>Gateshead Office</h5>
+
+                        <h5><b>0191 4605388</b></h5>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark nav-bg box-shade1">
+    <div class="container justify">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+            (click)="drawer.close()">
+            <span class=" navbar-toggler-icon "></span>
+        </button>
+        <div class=" collapse navbar-collapse formpadding" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="<%-'home'%>  ">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="<%-'about'%>  
+                        ">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="<%-'team'%>">Our Team</a>
+                </li>
+                <li class="nav-item dropdown navbar-dark nav-bg">
+                    <a class="nav-link active dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" href="<%-'servicespeciality'%>">
+                        Service Specialities
+                    </a>
+                    <ul class="sub-menu dropdown-menu nav-icon " aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item nav-icon " href="<%-'accounting'%>">Accounting</a></li>
+                        <li><a class="dropdown-item nav-icon " href="<%-'payroll'%>">Payroll</a></li>
+                        <li><a class="dropdown-item nav-icon " href="<%-'forensic'%>">Forensic</a>
+                        <li><a class="dropdown-item nav-icon" href="<%-'taxation'%>">Taxation</a>
+                        <li><a class="dropdown-item nav-icon " href="<%-'business'%>">Business Support</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown navbar-dark nav-bg">
+                    <a class="nav-link dropdown-toggle active" href="<%-'sectorspaciality'%>"
+                        id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sector Speciality
+                    </a>
+                    <ul class="dropdown-menu navbar-dark nav-bg" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item " href="<%-'charities'%>">Charaties</a></li>
+                        <li><a class="dropdown-item " href="<%-'medical-speciality'%>">Medical
+                                Specialities</a>
+                        <li><a class="dropdown-item " href="<%-'retail-and-wholesale'%>">Retail and
+                                Wholesale</a>
+                        <li><a class="dropdown-item " href="<%-'construction-and-property'%>">Construction
+                                and
+                                property</a></li>
+                        <li><a class="dropdown-item " href="<%-'it-sector'%>">IT Sector</a></li>
+                        <li><a class="dropdown-item " href="<%-'manufacturing'%>">Manufacturing</a>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="https://www.gov.uk/estimate-income-tax">UK Tax
+                        Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="<%-'contact'%>">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

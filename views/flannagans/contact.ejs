@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+    <title>Document</title>
+</head>
+<style>
+    div.mg-ab {
+        margin: 3% 10% 3% 10%;
+    }
+</style>
+
+<body>
+    <%- include('../partials/navbar') %>
+        <div style="position:relative">
+            <div class="contactimg" style="position: center;">
+                <h1 class="subtitle2">Get in Touch</h1>
+                <h4 class="subtitle1 mt-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                </h4>
+            </div>
+
+            <div class="custom-shape-divider-bottom-1643476699">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+        <hr class="hr-style">
+        <div class="text-center mb-5">
+            <h2>Make an Appointment</h2>
+        </div>
+
+        <form action="/contact" method="post" class="row formpadding">
+            <div class="col-md-6 mb-3">
+                <label for="name" class="form-label ">Your Name</label>
+                <input type="text" class="form-control input-border" id="name" placeholder="your name">
+                <div class="invalid-feedback text-danger">
+                    The field is required.
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="business" class="form-label ">Your Business</label>
+                <input type="text" class="form-control input-border" id="business" placeholder="your business">
+                <div class="invalid-feedback text-danger">
+                    The field is required.
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="position" class="form-label ">Your Position in the Business</label>
+                <input type="text" class="form-control input-border " id="position" placeholder="your position">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control input-border" id="email" placeholder="email">
+                <div class="invalid-feedback text-danger">
+                    The field is required.
+                </div>
+            </div>
+
+            <div class="col-12 mb-3">
+                <label for="enquiry" class="form-label mb-3">Enquiring about
+                </label>
+                <div>
+                    <input class="form-check-input input-border" type="checkbox" id="enquiry">
+                    <label class="form-check-label" for="enquiry">
+                        Accounting </label>
+                    <input class="form-check-input input-border" type="checkbox" id="enquiry">
+                    <label class="form-check-label" for="enquiry">
+                        Payroll </label>
+                    <input class="form-check-input input-border" type="checkbox" id="enquiry">
+                    <label class="form-check-label" for="enquiry">
+                        VAT </label>
+                    <input class="form-check-input input-border" type="checkbox" id="enquiry">
+                    <label class="form-check-label" for="enquiry">
+                        Audit </label>
+                </div>
+            </div>
+            <label class="form-check-label mb-3" for="comment">
+                Comments</label>
+            <div class="form-floating p-3">
+                <textarea class="form-control input-border" placeholder="Leave a comment here" id="comment"
+                    style="height: 200px"></textarea>
+
+            </div>
+            <div class="col-12 mb-5">
+                <button style="width: auto;" type="submit" class="button">Make an Appointment</button>
+            </div>
+        </form>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-4">
+                    <i style="color:#0c51bb" class="my-3 fas fa-map-marker-alt fa-3x d-flex justify-content-center"></i>
+                    <h4 class="text-center my-3">Office
+                    </h4>
+                    <p class="text-center">Teesside
+                    </p>
+                    <p class="text-center">Gateshead
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <i style="color:#0c51bb" class="my-3 fas fa-mobile-alt fa-3x d-flex justify-content-center"></i>
+                    <h4 class="text-center my-3">Phone
+
+                    </h4>
+                    <p class="text-center">+0142 989 0111
+
+                    </p>
+                    <p class="text-center">+0191 4605388
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <i style="color:#0c51bb" class="my-3 fas fa-envelope fa-3x d-flex justify-content-center"></i>
+                    <h4 class="text-center my-3">Email
+                    </h4>
+                    <p class="text-center">gateshead@flannagans.co.uk
+                    </p>
+                    <p class="text-center my-3">info@flannagans.co.uk
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 my-5">
+                    <h3>TEESSIDE OFFICE
+                    </h3>
+                    <hr style="height:3px; width:15%; border-width:0; color:#0c51bb; background-color:#0c51bb">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2309.5214541840814!2d-1.3153121835082413!3d54.63003538026801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e8d11e4555549%3A0x4f42c63de22e6212!2sWynyard%20Business%20Park!5e0!3m2!1sen!2suk!4v1635408814909!5m2!1sen!2suk"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
+                <div class="col-md-5 my-5">
+                    <h3>GATESHEAD OFFICE
+                    </h3>
+                    <hr style="height:3px; width:15%; border-width:0; color:#0c51bb; background-color:#0c51bb">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9162.561803089888!2d-1.670458!3d54.961867!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3efc85110674f064!2sFlannagans%20Chartered%20Certified%20Accountants!5e0!3m2!1sen!2sin!4v1616096287201!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <%- include('../partials/footer') %>
+</body>
+
+</html>
+<script>
+    (function () {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.validated-form')
+
+        // Loop over them and prevent submission
+        Array.from(forms)
+            .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+    })()
+</script>

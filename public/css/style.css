@@ -1,0 +1,498 @@
+* {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  line-height: 1.7em;
+  line-height: 1.4em;
+  font-weight: 600;
+  background-color: #fff;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  color: #000000;
+}
+
+.acolor a:hover {
+  background-color: #0c52bb50;
+}
+.col-md-3 .size {
+  width: 18rem;
+  height: 20rem;
+  padding: 20px 15px 13px 15px;
+  margin-top: -120px;
+}
+
+.sector-size {
+  width: 20rem;
+  height: 18rem;
+  padding: 20px 15px 13px 15px;
+}
+.navbar-nav > li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.card-bk {
+  background-color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 54px 17px rgb(0 0 0 / 4%);
+  line-height: 1.6em;
+  border-top-width: 10px;
+  border-top-color: #3c39e6;
+  padding-top: 15px !important;
+  padding-right: 15px !important;
+  padding-bottom: 30px !important;
+  padding-left: 15px !important;
+}
+.card-blog {
+  background-color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 54px 17px rgb(0 0 0 / 4%);
+  line-height: 1.6em;
+}
+.justify {
+  justify-content: center;
+}
+.icon_marg {
+  margin-right: 10px;
+  color: #0c51bb;
+}
+.nav-bg {
+  background-color: #0c51bb;
+}
+.navbar-white {
+  text-decoration-color: white;
+  width: 80%;
+}
+nav > ul > li.nav-item > a {
+  border-bottom: 2px solid #0c51bb;
+}
+div.card:hover {
+  border-bottom-color: white;
+  border-bottom-width: 5px;
+}
+div.card.hover1:hover {
+  border-bottom-color: rgb(4, 14, 156);
+  border-bottom-width: 5px;
+}
+.padding {
+  border-radius: 35px 35px 35px 35px;
+  padding: 21px 10%;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.box-shade {
+  box-shadow: 0 1px 15px rgb(0 0 0 / 11%);
+  border-bottom: 6px solid #fff;
+}
+.box-shade1 {
+  box-shadow: 0 1px 15px rgba(60, 41, 238, 0.11);
+}
+.nav-icon:hover {
+  background-color: rgba(13, 94, 243, 0.11);
+}
+.div-color {
+  background-color: #e7ecf2;
+  padding-bottom: 7%;
+}
+hr.hr-style {
+  border-top: 3px solid #0c51bb;
+  color: #0c51bb;
+  width: 10%;
+  align-items: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.div.topmargin {
+  margin-top: 15%;
+}
+
+.div-toppadding {
+  padding-top: 100px;
+}
+.div-bottompadding {
+  padding-bottom: 50px;
+}
+.div-padding {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+#grad {
+  background-color: #49bc8f; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#49bc8f, #0c8ba8);
+}
+i {
+  margin-right: 0px;
+}
+.nav-padding {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.margin {
+  margin-top: 20px;
+}
+.background {
+  background-image: url(https://www.flannagans.co.uk/wp-content/uploads/2021/03/bg-image.jpg);
+}
+.back-img {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(150, 105, 97, 0.67),
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../images/accounting.jpg");
+  height: 500px;
+  background-size: cover;
+  color: white;
+  padding-top: 8%;
+}
+
+.img-padding {
+  padding-top: 5%;
+}
+
+.button {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 21px;
+  border: 1px #3866a3 solid;
+  padding: 10px 18px;
+  background-color: #0c52bb;
+  text-shadow: 1px 1px 1px #528ecc;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+.button:hover {
+  background-color: #ffffff;
+  color: #0c52bb;
+  border-color: #0c52bb;
+}
+
+.bg-display {
+  background-color: #ecf4fe;
+}
+
+.footer-bg {
+  background-color: #222222;
+  color: white;
+}
+.copyright {
+  background-color: #171717;
+}
+.wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 5%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.wrap:before,
+.wrap:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: inherit;
+  padding-bottom: 3%;
+}
+.wrap:before {
+  right: 50%;
+  -ms-transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 75%;
+  transform-origin: 100% 444%;
+  -ms-transform: skewX(35deg);
+  -webkit-transform: skewX(35deg);
+  transform: skewX(75deg);
+}
+.wrap:after {
+  left: 50%;
+  -ms-transform-origin: 0 100%;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -ms-transform: skewX(-35deg);
+  -webkit-transform: skewX(-35deg);
+  transform: skewX(-78deg);
+}
+.aim-color {
+  background-color: #f7f7f7;
+  padding: 37px 0px;
+}
+
+.circular-square {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.border1 {
+  border-top-color: #0c51bb;
+  border-top-width: 7px;
+}
+.width-100 {
+  width: 1015px;
+  height: 878px;
+}
+.circle-img {
+  width: 200px;
+  clip-path: circle();
+}
+.headerimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/accounting.jpg") !important;
+  background-size: cover;
+}
+.payrollimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/payroll.jpg") !important;
+  background-size: cover;
+  position: center;
+}
+.forensicimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/forensic.jpg") !important;
+  background-size: cover;
+}
+.taxationimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/Taxation-ser.jpg") !important;
+  background-size: cover;
+}
+.businessimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/business-support-service.jpeg") !important;
+  background-size: cover;
+}
+.charityimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/charities.jpeg") !important;
+  background-size: cover;
+}
+.medicalimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/medical-specialists.jpg") !important;
+  background-size: cover;
+}
+.retailimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/retail-and-wholesale.jpg") !important;
+  background-size: cover;
+}
+.constructimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/construction-and-property.jpg") !important;
+  background-size: cover;
+}
+.itimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/it-sector.jpg") !important;
+  background-size: cover;
+}
+.manufactimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/manufacturing.jpg") !important;
+  background-size: cover;
+}
+.sectorimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/sector-speciality.jpg") !important;
+  background-size: cover;
+}
+.serviceimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/service-specialities.jpeg") !important;
+  background-size: cover;
+}
+.contactimg {
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(1, 77, 183, 0.9) 100%
+    ),
+    url("../images/contact.jpeg") !important;
+  background-size: cover;
+}
+.subtitle {
+  padding-top: 120px;
+  padding-bottom: 145px;
+  padding-right: 0px;
+  padding-left: 15%;
+  color: white;
+}
+.subtitle2 {
+  padding-top: 120px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 19%;
+  color: white;
+}
+.subtitle1 {
+  padding-right: 0px;
+  padding-bottom: 185px;
+  padding-left: 20%;
+  color: white;
+}
+/*.divider {
+  background-size: 100% 50px;
+  bottom: 0;
+  height: 50px;
+  z-index: 1;
+  transform: rotateY(184deg);
+}*/
+.iconbg-color {
+  font-size: 33px;
+  color: #ffffff;
+  background-color: #0c51bb;
+  clip-path: circle();
+  padding: 24px;
+}
+.cardheader {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  text-align: center;
+  margin-top: 10%;
+}
+.bottommargin {
+  margin-bottom: 1.5%;
+}
+.formpadding {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.custom-shape-divider-bottom-1643476699 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.dropdown-menu {
+  color: #ffffff !important;
+  text-align: left;
+  list-style: none;
+  background-color: #0c51bb !important;
+  background-clip: padding-box;
+  border: 1px solid rgba(98, 75, 230, 0.15);
+  border-radius: 0.25rem;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.25rem;
+  clear: both;
+  font-weight: 400;
+  color: #ffffff !important;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+.custom-shape-divider-bottom-1643476699 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 42px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1643476699 .shape-fill {
+  fill: #ffffff;
+}
+
+div.card.bordercolor {
+  border-top-color: #0c51bb;
+  border-top-width: 9px;
+  border-radius: 10px;
+}
+.input-border {
+  border: 1px solid black !important;
+  color: black;
+  box-shadow: none;
+}
+.copy-padding {
+  padding-top: 15px;
+}
+@media all and (max-width: 767px) {
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5 {
+    margin-bottom: 30px;
+  }
+}
