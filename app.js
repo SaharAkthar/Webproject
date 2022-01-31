@@ -3,6 +3,7 @@ const app = express();
 const path = require("path");
 const mongoose = require("mongoose");
 const Form = require("./models/form.js");
+const port = process.env.port || 3000;
 mongoose.connect("mongodb://localhost:27017/complaint", {});
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
@@ -73,6 +74,6 @@ app.post("/contact", async (req, res) => {
     res.send(err);
   }
 });
-app.listen(3000, () => {
-  console.log("Serving on Port");
+app.listen(port, () => {
+  console.log(`Serving on Port${port}`);
 });
